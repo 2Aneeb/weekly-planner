@@ -1,0 +1,72 @@
+
+
+header input {
+    font-size: 20px;
+    margin-left: 4%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 92%;
+    
+}
+
+
+td, th {
+    border: 2px solid black;
+    text-align: left;
+    padding-left: 4px;
+       
+}
+
+td {
+    height: 195px;
+    overflow: hidden;
+}
+
+
+table input {
+    width: 93%;
+    color: blueviolet;
+    margin-bottom: 4px;
+    border: 2px solid blueviolet;
+    border-radius: 3px;
+}
+
+
+table ul {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    padding: 0px;
+    pointer-events: none;
+}
+
+ .listClass {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1px 3px;
+    margin-top: 3px;
+    margin-right: 2px;
+    max-width: 93%;
+    word-wrap: break-word;
+    pointer-events:all;
+} 
+.listClass:hover {
+    color:red;
+    border: 1px solid red;
+    text-decoration-line: line-through;
+}
+
+button {
+    position: relative;
+    left:87%;
+    margin-top: 4%;
+}
